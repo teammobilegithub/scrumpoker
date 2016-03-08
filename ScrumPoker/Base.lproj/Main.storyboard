@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SCRUM POKER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ngf-MM-yyz">
+                                <rect key="frame" x="20" y="70" width="560" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="w6u-X6-hNE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                <color key="textColor" red="1" green="0.39614486744269095" blue="0.44251441790530599" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="w6u-X6-hNE"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u06-yX-6hc">
+                                <rect key="frame" x="250" y="280" width="100" height="40"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="u06-yX-6hc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2E7-3T-eNk"/>
+                            <constraint firstItem="Ngf-MM-yyz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="45n-a2-lVd"/>
+                            <constraint firstItem="Ngf-MM-yyz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CWl-Ly-hPu"/>
+                            <constraint firstItem="Ngf-MM-yyz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KoC-O1-za3"/>
+                            <constraint firstItem="Ngf-MM-yyz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="263" id="SUC-MV-DBe"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Ngf-MM-yyz" secondAttribute="leading" id="YQ2-SB-ZpI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ngf-MM-yyz" secondAttribute="trailing" id="dKf-oc-Ks6"/>
+                            <constraint firstItem="u06-yX-6hc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="r4H-S6-hU0"/>
+                            <constraint firstItem="Ngf-MM-yyz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x5o-o8-jmJ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="CWl-Ly-hPu"/>
+                                <exclude reference="KoC-O1-za3"/>
+                                <exclude reference="SUC-MV-DBe"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="387"/>
+        </scene>
+    </scenes>
+</document>

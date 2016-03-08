@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBAA42BC1C8D6B1A00AF0F50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAA42BB1C8D6B1A00AF0F50 /* main.m */; };
+		CBAA42BF1C8D6B1A00AF0F50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAA42BE1C8D6B1A00AF0F50 /* AppDelegate.m */; };
+		CBAA42C21C8D6B1A00AF0F50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAA42C11C8D6B1A00AF0F50 /* ViewController.m */; };
+		CBAA42C51C8D6B1A00AF0F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBAA42C31C8D6B1A00AF0F50 /* Main.storyboard */; };
+		CBAA42C71C8D6B1A00AF0F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBAA42C61C8D6B1A00AF0F50 /* Assets.xcassets */; };
+		CBAA42CA1C8D6B1A00AF0F50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBAA42C81C8D6B1A00AF0F50 /* LaunchScreen.storyboard */; };
+		CBAA42D51C8D6B1A00AF0F50 /* ScrumPokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAA42D41C8D6B1A00AF0F50 /* ScrumPokerTests.m */; };
+		CBAA42E01C8D6B1A00AF0F50 /* ScrumPokerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAA42DF1C8D6B1A00AF0F50 /* ScrumPokerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBAA42D11C8D6B1A00AF0F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBAA42AF1C8D6B1A00AF0F50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBAA42B61C8D6B1A00AF0F50;
+			remoteInfo = ScrumPoker;
+		};
+		CBAA42DC1C8D6B1A00AF0F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBAA42AF1C8D6B1A00AF0F50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBAA42B61C8D6B1A00AF0F50;
+			remoteInfo = ScrumPoker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBAA42B71C8D6B1A00AF0F50 /* ScrumPoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrumPoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBAA42BB1C8D6B1A00AF0F50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBAA42BD1C8D6B1A00AF0F50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBAA42BE1C8D6B1A00AF0F50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBAA42C01C8D6B1A00AF0F50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBAA42C11C8D6B1A00AF0F50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBAA42C41C8D6B1A00AF0F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBAA42C61C8D6B1A00AF0F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBAA42C91C8D6B1A00AF0F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBAA42CB1C8D6B1A00AF0F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBAA42D01C8D6B1A00AF0F50 /* ScrumPokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumPokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBAA42D41C8D6B1A00AF0F50 /* ScrumPokerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrumPokerTests.m; sourceTree = "<group>"; };
+		CBAA42D61C8D6B1A00AF0F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBAA42DB1C8D6B1A00AF0F50 /* ScrumPokerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumPokerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBAA42DF1C8D6B1A00AF0F50 /* ScrumPokerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrumPokerUITests.m; sourceTree = "<group>"; };
+		CBAA42E11C8D6B1A00AF0F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBAA42B41C8D6B1A00AF0F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAA42CD1C8D6B1A00AF0F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAA42D81C8D6B1A00AF0F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBAA42AE1C8D6B1A00AF0F50 = {
+			isa = PBXGroup;
+			children = (
+				CBAA42B91C8D6B1A00AF0F50 /* ScrumPoker */,
+				CBAA42D31C8D6B1A00AF0F50 /* ScrumPokerTests */,
+				CBAA42DE1C8D6B1A00AF0F50 /* ScrumPokerUITests */,
+				CBAA42B81C8D6B1A00AF0F50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBAA42B81C8D6B1A00AF0F50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBAA42B71C8D6B1A00AF0F50 /* ScrumPoker.app */,
+				CBAA42D01C8D6B1A00AF0F50 /* ScrumPokerTests.xctest */,
+				CBAA42DB1C8D6B1A00AF0F50 /* ScrumPokerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBAA42B91C8D6B1A00AF0F50 /* ScrumPoker */ = {
+			isa = PBXGroup;
+			children = (
+				CBAA42BD1C8D6B1A00AF0F50 /* AppDelegate.h */,
+				CBAA42BE1C8D6B1A00AF0F50 /* AppDelegate.m */,
+				CBAA42C01C8D6B1A00AF0F50 /* ViewController.h */,
+				CBAA42C11C8D6B1A00AF0F50 /* ViewController.m */,
+				CBAA42C31C8D6B1A00AF0F50 /* Main.storyboard */,
+				CBAA42C61C8D6B1A00AF0F50 /* Assets.xcassets */,
+				CBAA42C81C8D6B1A00AF0F50 /* LaunchScreen.storyboard */,
+				CBAA42CB1C8D6B1A00AF0F50 /* Info.plist */,
+				CBAA42BA1C8D6B1A00AF0F50 /* Supporting Files */,
+			);
+			path = ScrumPoker;
+			sourceTree = "<group>";
+		};
+		CBAA42BA1C8D6B1A00AF0F50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBAA42BB1C8D6B1A00AF0F50 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBAA42D31C8D6B1A00AF0F50 /* ScrumPokerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBAA42D41C8D6B1A00AF0F50 /* ScrumPokerTests.m */,
+				CBAA42D61C8D6B1A00AF0F50 /* Info.plist */,
+			);
+			path = ScrumPokerTests;
+			sourceTree = "<group>";
+		};
+		CBAA42DE1C8D6B1A00AF0F50 /* ScrumPokerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBAA42DF1C8D6B1A00AF0F50 /* ScrumPokerUITests.m */,
+				CBAA42E11C8D6B1A00AF0F50 /* Info.plist */,
+			);
+			path = ScrumPokerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBAA42B61C8D6B1A00AF0F50 /* ScrumPoker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBAA42E41C8D6B1A00AF0F50 /* Build configuration list for PBXNativeTarget "ScrumPoker" */;
+			buildPhases = (
+				CBAA42B31C8D6B1A00AF0F50 /* Sources */,
+				CBAA42B41C8D6B1A00AF0F50 /* Frameworks */,
+				CBAA42B51C8D6B1A00AF0F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrumPoker;
+			productName = ScrumPoker;
+			productReference = CBAA42B71C8D6B1A00AF0F50 /* ScrumPoker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBAA42CF1C8D6B1A00AF0F50 /* ScrumPokerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBAA42E71C8D6B1A00AF0F50 /* Build configuration list for PBXNativeTarget "ScrumPokerTests" */;
+			buildPhases = (
+				CBAA42CC1C8D6B1A00AF0F50 /* Sources */,
+				CBAA42CD1C8D6B1A00AF0F50 /* Frameworks */,
+				CBAA42CE1C8D6B1A00AF0F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBAA42D21C8D6B1A00AF0F50 /* PBXTargetDependency */,
+			);
+			name = ScrumPokerTests;
+			productName = ScrumPokerTests;
+			productReference = CBAA42D01C8D6B1A00AF0F50 /* ScrumPokerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBAA42DA1C8D6B1A00AF0F50 /* ScrumPokerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBAA42EA1C8D6B1A00AF0F50 /* Build configuration list for PBXNativeTarget "ScrumPokerUITests" */;
+			buildPhases = (
+				CBAA42D71C8D6B1A00AF0F50 /* Sources */,
+				CBAA42D81C8D6B1A00AF0F50 /* Frameworks */,
+				CBAA42D91C8D6B1A00AF0F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBAA42DD1C8D6B1A00AF0F50 /* PBXTargetDependency */,
+			);
+			name = ScrumPokerUITests;
+			productName = ScrumPokerUITests;
+			productReference = CBAA42DB1C8D6B1A00AF0F50 /* ScrumPokerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBAA42AF1C8D6B1A00AF0F50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mobile;
+				TargetAttributes = {
+					CBAA42B61C8D6B1A00AF0F50 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CBAA42CF1C8D6B1A00AF0F50 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CBAA42B61C8D6B1A00AF0F50;
+					};
+					CBAA42DA1C8D6B1A00AF0F50 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CBAA42B61C8D6B1A00AF0F50;
+					};
+				};
+			};
+			buildConfigurationList = CBAA42B21C8D6B1A00AF0F50 /* Build configuration list for PBXProject "ScrumPoker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBAA42AE1C8D6B1A00AF0F50;
+			productRefGroup = CBAA42B81C8D6B1A00AF0F50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBAA42B61C8D6B1A00AF0F50 /* ScrumPoker */,
+				CBAA42CF1C8D6B1A00AF0F50 /* ScrumPokerTests */,
+				CBAA42DA1C8D6B1A00AF0F50 /* ScrumPokerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBAA42B51C8D6B1A00AF0F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAA42CA1C8D6B1A00AF0F50 /* LaunchScreen.storyboard in Resources */,
+				CBAA42C71C8D6B1A00AF0F50 /* Assets.xcassets in Resources */,
+				CBAA42C51C8D6B1A00AF0F50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAA42CE1C8D6B1A00AF0F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAA42D91C8D6B1A00AF0F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBAA42B31C8D6B1A00AF0F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAA42C21C8D6B1A00AF0F50 /* ViewController.m in Sources */,
+				CBAA42BF1C8D6B1A00AF0F50 /* AppDelegate.m in Sources */,
+				CBAA42BC1C8D6B1A00AF0F50 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAA42CC1C8D6B1A00AF0F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAA42D51C8D6B1A00AF0F50 /* ScrumPokerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAA42D71C8D6B1A00AF0F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAA42E01C8D6B1A00AF0F50 /* ScrumPokerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBAA42D21C8D6B1A00AF0F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBAA42B61C8D6B1A00AF0F50 /* ScrumPoker */;
+			targetProxy = CBAA42D11C8D6B1A00AF0F50 /* PBXContainerItemProxy */;
+		};
+		CBAA42DD1C8D6B1A00AF0F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBAA42B61C8D6B1A00AF0F50 /* ScrumPoker */;
+			targetProxy = CBAA42DC1C8D6B1A00AF0F50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBAA42C31C8D6B1A00AF0F50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBAA42C41C8D6B1A00AF0F50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBAA42C81C8D6B1A00AF0F50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBAA42C91C8D6B1A00AF0F50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBAA42E21C8D6B1A00AF0F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBAA42E31C8D6B1A00AF0F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBAA42E51C8D6B1A00AF0F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrumPoker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.exact.ScrumPoker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBAA42E61C8D6B1A00AF0F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrumPoker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.exact.ScrumPoker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBAA42E81C8D6B1A00AF0F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScrumPokerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.ScrumPokerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrumPoker.app/ScrumPoker";
+			};
+			name = Debug;
+		};
+		CBAA42E91C8D6B1A00AF0F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScrumPokerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.ScrumPokerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrumPoker.app/ScrumPoker";
+			};
+			name = Release;
+		};
+		CBAA42EB1C8D6B1A00AF0F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScrumPokerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.ScrumPokerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScrumPoker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CBAA42EC1C8D6B1A00AF0F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScrumPokerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.ScrumPokerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScrumPoker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBAA42B21C8D6B1A00AF0F50 /* Build configuration list for PBXProject "ScrumPoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAA42E21C8D6B1A00AF0F50 /* Debug */,
+				CBAA42E31C8D6B1A00AF0F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBAA42E41C8D6B1A00AF0F50 /* Build configuration list for PBXNativeTarget "ScrumPoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAA42E51C8D6B1A00AF0F50 /* Debug */,
+				CBAA42E61C8D6B1A00AF0F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBAA42E71C8D6B1A00AF0F50 /* Build configuration list for PBXNativeTarget "ScrumPokerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAA42E81C8D6B1A00AF0F50 /* Debug */,
+				CBAA42E91C8D6B1A00AF0F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBAA42EA1C8D6B1A00AF0F50 /* Build configuration list for PBXNativeTarget "ScrumPokerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAA42EB1C8D6B1A00AF0F50 /* Debug */,
+				CBAA42EC1C8D6B1A00AF0F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBAA42AF1C8D6B1A00AF0F50 /* Project object */;
+}
